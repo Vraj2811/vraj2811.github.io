@@ -1,0 +1,95 @@
+* {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+}
+
+body {
+    background-color: #1d1e22;
+}
+
+.navbar {
+    background-color: #1d1e22;
+    width: 90vw;
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+    color: white;
+}
+
+.container {
+    background-color: #060606;
+    height: 40vh;
+    display: flex;
+    padding: 10px;
+}
+
+.chotacontainer {
+    background-color: #060606;
+    width: calc(100%/3);
+    padding: 10px;
+    margin: 10px;
+}
+
+.heading {
+    background-color: #1d1e22;
+    width: fit-content;
+    padding: 5px;
+    padding-right: 25px;
+    color: white;
+}
+
+img {
+    width: 20px;
+}
+
+.content {
+    margin: 0px;
+    padding: 5px;
+    background-color: #1d1e22;
+    height: 90%;
+    width: 100%;
+    border: none;
+    color: #d1bf78;
+}
+
+.run-button {
+    background-color: #1d1e22;
+    color: white;
+    margin: 5px;
+    border: 1px solid white;
+}
+
+.run-button:hover {
+    cursor: pointer;
+}
+
+.output {
+    padding: 2px;
+    color: black;
+    background-color: white;
+    height: 45vh;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+
+    .chotacontainer {
+        width: 100%;
+        padding: 0px;
+        margin: 5px;
+    }
+
+    .content {
+        height: 10vh;
+    }
+
+    .output {
+        height: 37vh;
+    }
+}
