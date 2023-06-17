@@ -58,12 +58,14 @@
 .container:hover {
     background-image: url('bg2.png');
     cursor: pointer;
+   
 }
 
 .chotacontainer {
     display: flex;
     flex-direction: row;
     margin-top: 4vh;
+    
 
 }
 
