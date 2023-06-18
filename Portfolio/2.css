@@ -114,7 +114,8 @@ th {
 }
 
 .top3 {
-    margin-top: 10vh;
+    margin-top: 8vh;
+    /* margin-bottom: 1vh; */
     height: 5vh;
     width: 100%;
     display: flex;

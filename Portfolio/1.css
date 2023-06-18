@@ -10,7 +10,7 @@
     font-family: 'CustomFont', sans-serif;
 }
 
-.bg-image {
+.bg-image { 
     background-image: url('bg_1.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,6 +58,11 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+}
+.element:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.1s;
+    cursor: pointer;
 }
 
 .right {
