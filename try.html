@@ -1,0 +1,12 @@
+
+<button onclick=playSound()>play</button>
+
+<script>
+
+    var snd="click.m4a";
+    var audio = new Audio(snd);
+    function playSound() {
+        snd.currentTime=0;
+        audio.play();
+    }
+</script>

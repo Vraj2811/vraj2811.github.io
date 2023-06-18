@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="icon" type="image/x-icon" href="Portfolio\captivate.png">
     <link rel="stylesheet" href="Portfolio/1.css">
 </head>
 
@@ -17,8 +18,8 @@
     </div>
     
     <div class="left">
-        <button onclick='window.location.href ="index.html"'  class="element">Save</button>
-        <button onclick='window.location.href ="index.html"' class="element">Cancel</button>
+        <button onclick='window.location.href ="index.html"'  class="element" onclick=playSound()>Save</button>
+        <button onclick='window.location.href ="index.html"' class="element" onclick="window.open('', '_self', ''); window.close();";>Cancel</button>
     </div>
 
     <div class="right">
@@ -32,5 +33,13 @@
         </div>
     </div>
 </body>
+<script>
 
+    var snd="click.m4a";
+    var audio = new Audio(snd);
+    function playSound() {
+        audio.currentTime=0;
+        audio.play();
+    }
+</script>
 </html>

@@ -7,38 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chandrabhan</title>
     <link rel="stylesheet" href="Portfolio/style.css">
+    <link rel="icon" type="image/x-icon" href="Portfolio\captivate.png">
+    <embed src="bgm.m4a" loop="true" autostart="true" width="2" height="0" >
 </head>
 
 <body>
+    
     <div class="bg-image"></div>
 
     <div class="top"></div>
 
     <div class="navbar">
-        <a href="about.html" class="link">
-            <div class="container"><span class="text">About Me</span></div>
+        <a href="about.html" target="_blank" class="link" onclick=playSound()>
+            <button class="container" ><span class="text">About Me</span></button>
         </a>
-        <a href="Skills.html" class="link">
-            <div class="container"><span class="text">Curriculum vitae
-            </span></div>
+        <a href="Skills.html" target="_blank" class="link" onclick=playSound()>
+            <button class="container"><span class="text">Curriculum vitae
+            </span></button>
         </a>
-        <a href="experience.html" class="link">
-            <div class="container"><span class="text">Experience</span></div>
+        <a href="experience.html" target="_blank" class="link" onclick="playSound()">
+            <button class="container"><span class="text">Experience</span></button>
         </a>
         <div class="chotacontainer">
-            <a href="https://www.linkedin.com/in/cpatel321" target="_blank" class="link">
+            <a href="https://www.linkedin.com/in/cpatel321" target="_blank" class="link" onclick="playSound()">
                 <div class="container"><span class="text">LinkedIn</span></div>
             </a>
-            <a href="https://github.com/cpatel321" target="_blank" class="link">
+            <a href="https://github.com/cpatel321" target="_blank" class="link" onclick="playSound()">
                 <div class="container"><span class="text">Github</span></div>
             </a>
         </div>
     </div>
 
     <div class="bottom">
-        <div>My Portfolio v6.9</div>
-        <div>&copy;<a href="https://vraj2811.github.io/Webverrse/">Minecraft-folio</a></div>
+        <div><span style="padding-left: 15px;">My Portfolio v6.9</span></div>
+        <div>&copy;<a href="https://vraj2811.github.io/Webverrse/"><span style="padding-right: 15px;">Minecraft-folio</span></a></div>
     </div>
 </body>
+<script>
 
+    var snd="click.m4a";
+    var audio = new Audio(snd);
+    function playSound() {
+        audio.currentTime=0;
+        audio.play();
+    }
+</script>
 </html>
