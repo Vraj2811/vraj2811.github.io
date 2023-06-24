@@ -60,6 +60,10 @@
     font-weight: bold;
 }
 
+.element a{
+    text-decoration: none;
+}
+
 .right {
     position: absolute;
     width: 20vw;
