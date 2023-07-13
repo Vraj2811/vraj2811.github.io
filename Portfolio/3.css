@@ -73,6 +73,7 @@
     font-size: 20px;
     border: 2px solid #a4a3a3;
     width: 100%;
+    cursor: pointer;
 }
 
 div#submit_reset{
@@ -82,3 +83,4 @@ div#submit_reset{
 #submit_reset>div{
     margin-top: 3vh;
 }
+

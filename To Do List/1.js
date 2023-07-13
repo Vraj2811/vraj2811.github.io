@@ -35,8 +35,8 @@ document.addEventListener('click', function (event) {
     const x = checkbox.id.split('-')[1];
     const element = document.getElementById(`task-${x}`);
     element.classList.toggle('thicker-strikethrough');
-    checkbox.style.color = checkbox.style.color==="white" ? "#202124":"white" ;
-    element.style.color = checkbox.style.color==="white" ? "#1bff0778":"white" ;
+    checkbox.style.color = checkbox.style.color === "white" ? "#202124" : "white";
+    element.style.color = checkbox.style.color === "white" ? "#1bff0778" : "white";
   }
 
 });
