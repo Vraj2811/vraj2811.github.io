@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/Supervised_ML/Logistic_Regression.html",
+      "/Supervised_ML/Linear_Regression_for_Classification.html",
+      "/Supervised_ML/Polynomial_Regression.html",
+      "/Supervised_ML/Linear_Regression_With_Multiple_Variable.html",
+      "/Supervised_ML/Linear_Regression_With_One_Variable.html"
+    ]
+  }
+]
