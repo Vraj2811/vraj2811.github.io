@@ -1,0 +1,15 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/Math/Secant_Method.html",
+      "/Math/Newton_Raphson_Method.html",
+      "/Math/Single_Fixed_Point_Iteration.html",
+      "/Math/False_Position_Method.html",
+      "/Math/Bisection_Method.html",
+      "/Math/Maclaurin_Series.html",
+      "/Math/Taylor_Series.html",
+      "/Math/Euler's_Method.html"
+    ]
+  }
+]
