@@ -15,26 +15,26 @@
     <div class="top">Feedback Form</div>
 
     <div class="container">
-        <form id="contactForm" action="https://sheetdb.io/api/v1/vswa5t0w22efk" method="POST">
+        <form id="contactForm" method="POST" data-netlify="true" onSubmit="submit">
             <div>
                 <label for="name" class="grey">Name</label>
-                <input type="text" id="name" required class="bg">
+                <input name="name" type="text" id="name" required class="bg">
             </div>
             <div>
                 <label for="phone" class="grey">Phone Number</label>
-                <input type="tel" id="phone" required class="bg">
+                <input name="phone" type="tel" id="phone" required class="bg">
             </div>
             <div>
                 <label for="email" class="grey">Email</label>
-                <input type="email" id="email" required class="bg">
+                <input name="email" type="email" id="email" required class="bg">
             </div>
             <div>
                 <label for="feedback" class="grey">Feedback</label>
-                <input type="text" id="feedback" required class="bg">
+                <input name="message" type="text" id="feedback" required class="bg">
             </div>
             <div id="submit_reset">
                 <div>
-                    <button type="submit" id="button" class="bg1">SUBMIT</button>
+                    <input type="submit" value="SEND" name="submit" id="button" class="bg1"></input>
                 </div>
                 <div>
                     <input type="reset" value="RESET" class="bg1">
@@ -42,38 +42,6 @@
             </div>
         </form>
     </div>
-
-    <script>
-        var form = document.getElementById('contactForm');
-        var name = document.getElementById('name').value;
-        var phone = document.getElementById('phone').value;
-        var email = document.getElementById('email').value;
-        var feedback = document.getElementById('feedback').value;
-
-        form.addEventListener('submit', function (e) {
-            e.preventDefault();
-            fetch('https://sheetdb.io/api/v1/vswa5t0w22efk', {
-                method: 'POST',
-                headers: {
-                    'Accept': 'application/json',
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    data: [
-                        {
-                            'Name': name,
-                            'Phone No.': phone,
-                            'Email': email,
-                            'Feedback': feedback
-                        }
-                    ]
-                })
-            })
-                .then((response) => response.json())
-                .then((data) => console.log(data));
-        });
-
-    </script>
 </body>
 
 </html>
