@@ -1,1 +1,1 @@
-https://vraj2811.github.io/
+https://vraj2811.netlify.app
