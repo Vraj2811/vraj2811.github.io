@@ -154,8 +154,8 @@ th {
 }
 
 img {
-    max-width: 400px;
-    height: 200px;
+    max-width: 25rem;
+    height: 12rem;
 }
 
 @media screen and (max-width: 650px) {
