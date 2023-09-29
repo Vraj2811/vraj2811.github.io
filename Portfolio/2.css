@@ -145,15 +145,25 @@ th {
     background-image: url('bg2.png');
 }
 
-.link{
+.link {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     height: 250px;
 }
 
-img{
+img {
     max-width: 400px;
     height: 200px;
+}
+
+@media screen and (max-width: 650px) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+    }
+    .td{
+        margin: 15px 0;
+    }
 }
