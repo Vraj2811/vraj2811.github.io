@@ -144,3 +144,16 @@ th {
 .container2 table tbody tr :hover {
     background-image: url('bg2.png');
 }
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 250px;
+}
+
+img{
+    max-width: 400px;
+    height: 200px;
+}
