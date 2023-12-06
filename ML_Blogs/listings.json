@@ -2,11 +2,21 @@
   {
     "listing": "/index.html",
     "items": [
-      "/Supervised_ML/Logistic_Regression.html",
-      "/Supervised_ML/Linear_Regression_for_Classification.html",
-      "/Supervised_ML/Polynomial_Regression.html",
-      "/Supervised_ML/Linear_Regression_With_Multiple_Variable.html",
-      "/Supervised_ML/Linear_Regression_With_One_Variable.html"
+      "/blogs/Linear_Regression_With_One_Variable.html",
+      "/blogs/Linear_Regression_With_Multiple_Variable.html",
+      "/blogs/Polynomial_Regression.html",
+      "/blogs/Linear_Regression_for_Classification.html",
+      "/blogs/Logistic_Regression.html",
+      "/blogs/Learning_Tensorflow.html",
+      "/blogs/SoftMax.html",
+      "/blogs/SImple_Neutral_Network.html",
+      "/blogs/Decision_Tress.html",
+      "/blogs/Handwritten_DIgit_Recognition.html",
+      "/blogs/KMeans.html",
+      "/blogs/PCA.html",
+      "/blogs/Anomaly_Detection.html",
+      "/blogs/State_Action_Value_Function.html",
+      "/blogs/Collaborative_Filtering_Recommender_Systems.html"
     ]
   }
 ]
